@@ -1,6 +1,6 @@
 Issues To Resolve:
-1. Nav width.
-2. Lambdo logo alignment with rest of nav items.
+1. Nav width. 
+2. Lambdo logo alignment with rest of nav items. RESOLVED 
 3. Header image flushing with the navbar.
 4. About border alignment.
 5. Boxes border alignment.

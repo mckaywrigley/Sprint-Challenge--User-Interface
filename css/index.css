@@ -295,3 +295,32 @@ button {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+
+/* Contact Page */
+
+/* Contact Container */
+
+.container.contact-page {
+    width: 800px;
+    margin: auto;
+}
+
+/* Form */
+
+.form-container {
+    margin: 20px 0;
+}
+
+form {
+}
+
+input {
+    margin: 10px 0;
+    width: 500px;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+}

@@ -228,3 +228,62 @@ nav a {
 
 /* Footer */
 /* See Code Before Mine Starts */
+
+
+/* About Page */
+
+/* About Container */
+.container.about-page {
+	width: 800px;
+	margin: auto;
+}
+
+/* Top Content */
+.about-top-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+/* Middle Content */
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-box {
+    width: 45%;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+    margin: 20px;
+}
+
+.info-box h2 {
+    margin-top: 10px;
+}
+
+.info-box p {
+    margin-bottom: 5px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+/* Bottom Content */
+
+.about-bottom-content {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

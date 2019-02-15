@@ -266,6 +266,10 @@ nav a {
     margin: 20px;
 }
 
+.info-box img {
+    width: 360px;
+}
+
 .info-box h2 {
     margin-top: 10px;
 }

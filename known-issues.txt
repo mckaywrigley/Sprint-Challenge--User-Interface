@@ -3,4 +3,4 @@ Issues To Resolve:
 2. Lambdo logo alignment with rest of nav items. RESOLVED 
 3. Header image flushing with the navbar. RESOLVED
 4. About border alignment. RESOLVED
-5. Boxes border alignment.
+5. Boxes border alignment. RESOLVED

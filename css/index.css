@@ -159,15 +159,16 @@ footer nav a {
 /* Header */
 
 nav {
-	margin: 20px;
+	margin: 30px 0;
 	justify-content: center;
 	align-items: center;
 }
 
 nav a {
-    margin: 0 20px;
+    width: 100px;
     text-decoration: none;
     color: black;
+    margin-right: 63px;
 }
 
 

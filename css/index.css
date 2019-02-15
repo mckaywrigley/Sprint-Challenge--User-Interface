@@ -158,6 +158,10 @@ footer nav a {
 
 /* Header */
 
+header {
+    border-bottom: 1px dashed black;
+}
+
 nav {
 	margin: 30px 0;
 	justify-content: center;
@@ -239,13 +243,12 @@ nav a {
 
 /* Top Content */
 .about-top-content {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px dashed black;
+    
 }
 
 /* Middle Content */

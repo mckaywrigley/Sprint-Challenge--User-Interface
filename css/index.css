@@ -175,6 +175,10 @@ nav a {
     margin-right: 63px;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 
 /* Top Content */
 

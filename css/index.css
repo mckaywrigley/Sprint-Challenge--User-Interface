@@ -76,7 +76,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -86,6 +85,7 @@ p {
 }
 
 .middle-content {
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -141,6 +141,190 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: lightgray;
+    text-decoration: none;    
+}
+
+
+/* My Code Starts Here */
+
+
+/* Main Container */
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+
+/* Header */
+
+header {
+    border-bottom: 1px dashed black;
+}
+
+nav {
+	margin: 30px 0;
+	justify-content: center;
+	align-items: center;
+}
+
+nav a {
+    width: 100px;
     text-decoration: none;
+    color: black;
+    margin-right: 63px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Top Content */
+
+.top-content {
+    margin-top: 20px;
+}
+
+/* Boxes */
+
+.box {
+    color: lightgray;
+    font-weight: lighter;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+/* Footer */
+/* See Code Before Mine Starts */
+
+
+/* About Page */
+
+/* About Container */
+.container.about-page {
+	width: 800px;
+	margin: auto;
+}
+
+/* Top Content */
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+
+/* Middle Content */
+
+.about-middle-content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-box {
+    width: 45%;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+    margin: 20px;
+}
+
+.info-box img {
+    width: 360px;
+}
+
+.info-box h2 {
+    margin-top: 10px;
+}
+
+.info-box p {
+    margin-bottom: 5px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+/* Bottom Content */
+
+.about-bottom-content {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* Contact Page */
+
+/* Contact Container */
+
+.container.contact-page {
+    width: 800px;
+    margin: auto;
+}
+
+/* Form */
+
+.form-container {
+    margin: 20px 0;
+}
+
+form {
+}
+
+input {
+    margin: 10px 0;
+    width: 500px;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
 }
